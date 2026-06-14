@@ -27,5 +27,5 @@ app.post('/reportes', (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Servidor ejecutándose en puerto 3000');
-});curl -X POST http://localhost:3000/reportes -H "Content-Type: application/json" -d "{\"tipo\": \"Ambiental\", \"descripcion\": \"Se observa acumulación de residuos en la esquina principal.\"}"
+    console.log('Servidor ejecutándose en puerto 3000');
+});
